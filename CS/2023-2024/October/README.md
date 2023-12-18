@@ -1,4 +1,4 @@
-# SigmaCamp Problem of Month October 2023 Solution
+# SigmaCamp CS PoM October 2023 Solution
 
 This folder contains a solution to the October 2023 Computer Science PoM. It contains the following files: 
 
