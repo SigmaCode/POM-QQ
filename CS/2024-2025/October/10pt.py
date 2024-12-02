@@ -18,9 +18,7 @@ def recurse(curr, dest, airports_left, blank_tags_left, visited):
     if curr == dest and airports_left > 1:
         return 0
 
-    
     visited.add(curr)
-
     
     result = 0
     
@@ -87,4 +85,6 @@ if __name__ == "__main__":
         visited = set()
         
         result = recurse(start, end, n+1, blank_tags, visited)
-        print(result)
+        
+        with open('output.txt', 'w') as f:
+            f.write(result)
